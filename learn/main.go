@@ -1,9 +1,9 @@
 package main
 
 import (
-	"learn/sort"
+	"learn/collection"
 )
 
 func main(){
-	sort.Test_sort()
+	collection.Test_collection_func()
 }
