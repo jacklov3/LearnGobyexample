@@ -1,9 +1,9 @@
 package main
 
 import (
-	"learn/collection"
+	"learn/re"
 )
 
 func main(){
-	collection.Test_collection_func()
+	re.Test_re()
 }
