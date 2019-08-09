@@ -1,9 +1,9 @@
 package main
 
 import (
-	"learn/re"
+	"learn/number_parsing"
 )
 
 func main(){
-	re.Test_re()
+	number_parsing.Test_num_parse()
 }
