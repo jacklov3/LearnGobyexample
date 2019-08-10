@@ -1,9 +1,10 @@
 package main
 
 import (
-	"learn/number_parsing"
+	"learn/directories"
 )
 
 func main(){
-	number_parsing.Test_num_parse()
+	directories.Test_directories()
+	
 }
