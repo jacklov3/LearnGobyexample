@@ -1,10 +1,9 @@
 package main
 
 import (
-	"learn/directories"
+	"learn/exit"
 )
 
 func main(){
-	directories.Test_directories()
-	
+	exit.Test_exit()
 }
