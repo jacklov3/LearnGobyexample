@@ -1,7 +1,7 @@
 package main
-import "learn/interfaces"
+import "learn_go/go_grammar/goroutines"
 
 func main(){
-	interfaces.Test_reflect()
+	goroutines.Test_goroutines()
 
 }
