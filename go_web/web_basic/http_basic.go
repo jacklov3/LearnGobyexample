@@ -12,7 +12,6 @@ import (
 	"strings"
 	"time"
 )
-
 func sayhelloName(w http.ResponseWriter,r *http.Request){
 	r.ParseForm()
 	fmt.Println(r.Form)
