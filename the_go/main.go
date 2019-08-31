@@ -1,12 +1,11 @@
 package main
 
 import (
-	"learn_go/the_go/chapter8"
+
+	"learn_go/the_go/chapter9"
 )
 
 func main(){
-	chapter8.Test_pipe()
-
-
+	chapter9.Test_bank2()
 }
 
