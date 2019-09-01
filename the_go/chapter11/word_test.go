@@ -1,6 +1,7 @@
 package chapter11
 
 import (
+	"fmt"
 	"math/rand"
 	"testing"
 	"time"
@@ -87,4 +88,20 @@ func TestRandomPalindromes(t *testing.T){
 			t.Errorf("IsPalindrome(%q)=false",p)
 		}
 	}
+}
+
+
+//基准测试
+func BenchmarkIsPalindrome(b *testing.B) {
+	for i:=0;i<b.N;i++{
+		IsPalindrome("A man, a plan, a canal: Panama")
+	}
+}
+
+func ExampleIsPalindrome() {
+	fmt.Println(IsPalindrome("A man, a plan, a canal: Panama"))
+	fmt.Println(IsPalindrome("palindrome"))
+	//Output:
+	//true
+	//false
 }
