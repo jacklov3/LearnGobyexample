@@ -62,12 +62,4 @@ func My_sql(){
 	checkErr(err)
 
 	fmt.Println(affect)
-
-
-
-
-
-
-
-
 }
